@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTPTextField_Example' do
+  pod 'OTPTextField', :path => '../'
+
+  target 'OTPTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

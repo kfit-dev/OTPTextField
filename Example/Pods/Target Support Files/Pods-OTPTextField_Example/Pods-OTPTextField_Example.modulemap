@@ -1,0 +1,6 @@
+framework module Pods_OTPTextField_Example {
+  umbrella header "Pods-OTPTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

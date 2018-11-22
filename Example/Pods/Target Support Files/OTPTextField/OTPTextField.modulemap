@@ -1,0 +1,6 @@
+framework module OTPTextField {
+  umbrella header "OTPTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

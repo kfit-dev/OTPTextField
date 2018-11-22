@@ -1,0 +1,16 @@
+PODS:
+  - OTPTextField (0.1.0)
+
+DEPENDENCIES:
+  - OTPTextField (from `../`)
+
+EXTERNAL SOURCES:
+  OTPTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OTPTextField: 4e6c343f7c3c502f07ea079234ac8f1d0f98ba0c
+
+PODFILE CHECKSUM: 14274649ee4784fe52705565d020c650e73a1421
+
+COCOAPODS: 1.5.3
