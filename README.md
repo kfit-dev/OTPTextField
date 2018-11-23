@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/OTPTextField.svg?style=flat)](https://cocoapods.org/pods/OTPTextField)
 [![Platform](https://img.shields.io/cocoapods/p/OTPTextField.svg?style=flat)](https://cocoapods.org/pods/OTPTextField)
 
-<img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextField.gif"/>
+<img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextField.gif"/>&nbsp;
 <img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextFieldManual.gif"/>
 
 ## Requirements
