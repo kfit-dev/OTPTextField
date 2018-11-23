@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @class OTPTextField;
+
 @protocol OTPTextFieldDelegate <NSObject>
 
-- (void)otpTextField:(OTPTextField*)textField didChange:(NSString*)otpCode;
+- (void)otpTextField:(OTPTextField* _Nonnull)textField didChange:(NSString* _Nonnull)otpCode;
 
 @end
 
