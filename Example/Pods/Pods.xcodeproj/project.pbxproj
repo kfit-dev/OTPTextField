@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		17E8D64735DFD03A325F303A78881C63 /* Pods-OTPTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E5DC409C692ACE81987B3C41612F6 /* Pods-OTPTextField_Tests-dummy.m */; };
+		1C4A693421A6FF450021FA70 /* OTPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4A693221A6FF450021FA70 /* OTPTextField.h */; };
+		1C4A693521A6FF450021FA70 /* OTPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A693321A6FF450021FA70 /* OTPTextField.m */; };
 		3CC75FB02C7AC5058203D6DEFACC23ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		4B9889EB245AF515C05699C2052A92CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		592E49AF5E8FC05DEF2ED2F76B908C3A /* Pods-OTPTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25270684DB65DFBF47505EFA6B1CF525 /* Pods-OTPTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AD83D86766F4A137DE00FF3C23A6D8B /* OTPTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AE3833067A95502A64AEF1A68AF517 /* OTPTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82876D5A9FB87335374AB301477C8C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		94D1E7E4FDF4CB8B7619EC76CE64EDF7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E7524A134813EBE175FB82E4A8520C /* ReplaceMe.m */; };
 		AED6C61B2E1B3DA48C3D72E7F8745D2C /* OTPTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44438014207AEC84222E9697C62D876E /* OTPTextField-dummy.m */; };
 		BB040B7BD3EF8AB1D7EF2A6F3925C3BE /* Pods-OTPTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 683F7128830288A17668DBE32E3E7153 /* Pods-OTPTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDCD823809EBFB1519012DFFB896F96D /* Pods-OTPTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1213E83B997AB1B4E17E4FD42C3F0EA4 /* Pods-OTPTextField_Example-dummy.m */; };
@@ -39,31 +40,32 @@
 /* Begin PBXFileReference section */
 		0B9E5DC409C692ACE81987B3C41612F6 /* Pods-OTPTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTPTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		0D33E653340E69761CA5D35718F907A9 /* OTPTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPTextField.xcconfig; sourceTree = "<group>"; };
-		0E346165E486FADFF7F85FB34B8B7148 /* Pods_OTPTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTPTextField_Example.framework; path = "Pods-OTPTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E346165E486FADFF7F85FB34B8B7148 /* Pods_OTPTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1213E83B997AB1B4E17E4FD42C3F0EA4 /* Pods-OTPTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTPTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		13568AF2B2A83732818E9822E005A252 /* Pods-OTPTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1AD7652E1852977A88C4118B84F67875 /* Pods-OTPTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTPTextField_Example.modulemap"; sourceTree = "<group>"; };
+		1C4A693221A6FF450021FA70 /* OTPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTPTextField.h; path = OTPTextField/OTPTextField.h; sourceTree = "<group>"; };
+		1C4A693321A6FF450021FA70 /* OTPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTPTextField.m; path = OTPTextField/OTPTextField.m; sourceTree = "<group>"; };
 		2104103421E2F174D44582B0CC8E564C /* Pods-OTPTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTPTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		231BDFDC7F0C67120C8F2BC448AF4A85 /* Pods-OTPTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTPTextField_Example-resources.sh"; sourceTree = "<group>"; };
 		25270684DB65DFBF47505EFA6B1CF525 /* Pods-OTPTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2748676619C490B5981AF713A50C4343 /* Pods-OTPTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34DC721DA8B0C2B8EA42784210D94B91 /* OTPTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OTPTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		36517DD82116AEA14752A4712C2A2B3F /* Pods_OTPTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTPTextField_Tests.framework; path = "Pods-OTPTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DC721DA8B0C2B8EA42784210D94B91 /* OTPTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OTPTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36517DD82116AEA14752A4712C2A2B3F /* Pods_OTPTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC88D3B2B7352BFA344E0C32CA9226D /* Pods-OTPTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		44438014207AEC84222E9697C62D876E /* OTPTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPTextField-dummy.m"; sourceTree = "<group>"; };
 		44B209DFF021219247E171ADC5E6A4CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65347A3C80EEC7CF5A8A23AC618FB8AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		65347A3C80EEC7CF5A8A23AC618FB8AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		683F7128830288A17668DBE32E3E7153 /* Pods-OTPTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTPTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		6F9D6F79E2DED6EE2256428488F54B78 /* Pods-OTPTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8069ABDF663369AD371ADE5AC7F9BDD4 /* Pods-OTPTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTPTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		82DE637BE385EFFF00418E01B51400BA /* Pods-OTPTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTPTextField_Tests.modulemap"; sourceTree = "<group>"; };
 		842D61968554BCD6352BF3BFB9393740 /* Pods-OTPTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTPTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A29CA21A2D00F57EB6297EAEC59AA5CB /* Pods-OTPTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTPTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C15793A858FA0C67072E3615252A910F /* OTPTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPTextField-prefix.pch"; sourceTree = "<group>"; };
-		C170A45F680AD7FAFE0C1706FBDD4743 /* OTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTPTextField.framework; path = OTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4E7524A134813EBE175FB82E4A8520C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OTPTextField/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		C93D36AA34987D66BFE2E002E741432D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C170A45F680AD7FAFE0C1706FBDD4743 /* OTPTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTPTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93D36AA34987D66BFE2E002E741432D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D2884EBFA6B5708A63F73E1C0BBB7C99 /* OTPTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPTextField.modulemap; sourceTree = "<group>"; };
 		D3AE3833067A95502A64AEF1A68AF517 /* OTPTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPTextField-umbrella.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -177,7 +179,8 @@
 		8B1A52C8DB6A22D7CA192ABE3D5B4702 /* OTPTextField */ = {
 			isa = PBXGroup;
 			children = (
-				C4E7524A134813EBE175FB82E4A8520C /* ReplaceMe.m */,
+				1C4A693221A6FF450021FA70 /* OTPTextField.h */,
+				1C4A693321A6FF450021FA70 /* OTPTextField.m */,
 				937B1A4C7F20B6619CEAD466959F6C0A /* Pod */,
 				F1DF2B5DB6935E6D688F1E9441270946 /* Support Files */,
 			);
@@ -234,6 +237,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4A693421A6FF450021FA70 /* OTPTextField.h in Headers */,
 				6AD83D86766F4A137DE00FF3C23A6D8B /* OTPTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED6C61B2E1B3DA48C3D72E7F8745D2C /* OTPTextField-dummy.m in Sources */,
-				94D1E7E4FDF4CB8B7619EC76CE64EDF7 /* ReplaceMe.m in Sources */,
+				1C4A693521A6FF450021FA70 /* OTPTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,8 +534,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
