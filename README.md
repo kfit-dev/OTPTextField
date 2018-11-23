@@ -5,7 +5,6 @@
 [![Platform](https://img.shields.io/cocoapods/p/OTPTextField.svg?style=flat)](https://cocoapods.org/pods/OTPTextField)
 
 <img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextField.gif"/>
-<br>
 <img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextFieldManual.gif"/>
 
 ## Requirements
