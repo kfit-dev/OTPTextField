@@ -1,13 +1,12 @@
 # OTPTextField
 
-[![CI Status](https://img.shields.io/travis/Berdikhan/OTPTextField.svg?style=flat)](https://travis-ci.org/Berdikhan/OTPTextField)
 [![Version](https://img.shields.io/cocoapods/v/OTPTextField.svg?style=flat)](https://cocoapods.org/pods/OTPTextField)
 [![License](https://img.shields.io/cocoapods/l/OTPTextField.svg?style=flat)](https://cocoapods.org/pods/OTPTextField)
 [![Platform](https://img.shields.io/cocoapods/p/OTPTextField.svg?style=flat)](https://cocoapods.org/pods/OTPTextField)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextField.gif"/>
+<br>
+<img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextFieldManual.gif"/>
 
 ## Requirements
 
