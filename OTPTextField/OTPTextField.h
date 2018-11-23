@@ -11,7 +11,7 @@
 @class OTPTextField;
 @protocol OTPTextFieldDelegate <NSObject>
 
-- (void)otpTextField:(OTPTextField*)textField didCompleteFilling:(NSString*)otpCode;
+- (void)otpTextField:(OTPTextField*)textField didChange:(NSString*)otpCode;
 
 @end
 

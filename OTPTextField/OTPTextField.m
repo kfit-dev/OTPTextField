@@ -77,8 +77,8 @@
 
 - (void)textEditingChanged {
     if (self.text.length == _count) {
-        if ([self.otpDelegate respondsToSelector:@selector(otpTextField:didCompleteFilling:)]) {
-            [self.otpDelegate otpTextField:self didCompleteFilling:self.text];
+        if ([self.otpDelegate respondsToSelector:@selector(otpTextField:didChange:)]) {
+            [self.otpDelegate otpTextField:self didChange:self.text];
         }
     }
     [self updateText];
