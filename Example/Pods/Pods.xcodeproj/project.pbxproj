@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17E8D64735DFD03A325F303A78881C63 /* Pods-OTPTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E5DC409C692ACE81987B3C41612F6 /* Pods-OTPTextField_Tests-dummy.m */; };
-		1C4A693421A6FF450021FA70 /* OTPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4A693221A6FF450021FA70 /* OTPTextField.h */; };
+		1C4A693421A6FF450021FA70 /* OTPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4A693221A6FF450021FA70 /* OTPTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C4A693521A6FF450021FA70 /* OTPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A693321A6FF450021FA70 /* OTPTextField.m */; };
 		3CC75FB02C7AC5058203D6DEFACC23ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		4B9889EB245AF515C05699C2052A92CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
