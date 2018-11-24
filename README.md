@@ -36,7 +36,7 @@ If this is your first time using Carthage in the project, you'll need to go thro
 
 #### Manually
 
-- Drag the **Sources** folder anywhere in your project.
+- Drag the **OTPTextField** folder anywhere in your project.
 
 ## Author
 
