@@ -11,12 +11,29 @@
 
 ## Installation
 
-OTPTextField is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
 
-```ruby
+Add the following entry to your Podfile:
+
+```rb
 pod 'OTPTextField'
 ```
+
+Then run `pod install`.
+
+Don't forget to `import OTPTextField` in every file you'd like to use Hero.
+
+### Carthage
+
+Add the following entry to your `Cartfile`:
+
+```
+github "Berdikhan/OTPTextField"
+```
+
+Then run `carthage update`.
+
+If this is your first time using Carthage in the project, you'll need to go through some additional steps as explained [over at Carthage](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
 ## Author
 
