@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OTPTextField'
-  s.version          = '1.0.1'
+  s.version          = '1.1.1'
   s.summary          = 'TextField that supports iOS 12 Secure Code AutoFill.'
 
   s.description      = <<-DESC
