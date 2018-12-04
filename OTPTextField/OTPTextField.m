@@ -103,26 +103,36 @@
 
 - (void)setup {
     [placeholderLabel setFrame:self.bounds];
-    [placeholderLabel setTextAlignment:self.textAlignment];
-    [placeholderLabel setFont:self.font];
     [self updateText];
 }
 
 - (void)updateText {
-    NSDictionary *textAttributes = @{NSForegroundColorAttributeName: __textColor,
-                                 NSFontAttributeName: self.font,
-                                 NSKernAttributeName: [NSNumber numberWithInt:_spacing]};
-    NSDictionary *placeholderAttributes = @{NSForegroundColorAttributeName: _placeholderColor,
-                                            NSFontAttributeName: self.font,
-                                            NSKernAttributeName: [NSNumber numberWithInt:_spacing]};
+    if (_count < 1) {
+        return;
+    }
+    NSMutableParagraphStyle *style = [NSMutableParagraphStyle new];
+    [style setAlignment:self.textAlignment];
+    NSDictionary *defaultAttributes = @{NSFontAttributeName: self.font,
+                                        NSParagraphStyleAttributeName: style};
+    NSDictionary *spacingAttributes = @{NSKernAttributeName: [NSNumber numberWithInt:_spacing]};
+    
+    NSDictionary *textAttributes = @{NSForegroundColorAttributeName: __textColor};
+    NSDictionary *placeholderAttributes = @{NSForegroundColorAttributeName: _placeholderColor};
+    
     NSMutableAttributedString *formattedText = [NSMutableAttributedString new];
     
-    [formattedText appendAttributedString:[[NSAttributedString alloc] initWithString:self.text attributes:textAttributes]];
+    [formattedText appendAttributedString:[[NSAttributedString alloc] initWithString:self.text
+                                                                          attributes:textAttributes]];
     NSMutableArray *placeholderArray = [NSMutableArray new];
     for (int i=0; i<(_count - self.text.length); i++) {
         [placeholderArray addObject:_placeholderSeparator];
     }
-    [formattedText appendAttributedString:[[NSAttributedString alloc] initWithString:[placeholderArray componentsJoinedByString:@""] attributes:placeholderAttributes]];
+    [formattedText appendAttributedString:[[NSAttributedString alloc] initWithString:[placeholderArray componentsJoinedByString:@""]
+                                                                          attributes:placeholderAttributes]];
+    [formattedText addAttributes:defaultAttributes range:NSMakeRange(0, _count)];
+    if (_count > 1) {
+        [formattedText addAttributes:spacingAttributes range:NSMakeRange(0, _count-1)];
+    }
     placeholderLabel.attributedText = formattedText;
 }
 
