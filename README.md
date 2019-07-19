@@ -5,8 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/OTPTextField.svg?style=flat)](https://cocoapods.org/pods/OTPTextField)
 [![Platform](https://img.shields.io/cocoapods/p/OTPTextField.svg?style=flat)](https://cocoapods.org/pods/OTPTextField)
 
-<img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextField.gif"/>&nbsp;
-<img src="https://github.com/Berdikhan/OTPTextField/blob/master/OTPTextFieldManual.gif"/>
+<img src="https://github.com/kfit-dev/OTPTextField/blob/master/OTPTextField.gif"/>&nbsp;
+<img src="https://github.com/kfit-dev/OTPTextField/blob/master/OTPTextFieldManual.gif"/>
 
 ## Installation
 
@@ -27,7 +27,7 @@ Don't forget to `import OTPTextField` in every file you'd like to use Hero.
 Add the following entry to your `Cartfile`:
 
 ```
-github "Berdikhan/OTPTextField"
+github "kfit-dev/OTPTextField"
 ```
 
 Then run `carthage update`.
@@ -40,7 +40,7 @@ If this is your first time using Carthage in the project, you'll need to go thro
 
 ## Author
 
-Berdikhan, berdikhan@gmail.com
+Fave, dev@kfit.com
 
 ## License
 
