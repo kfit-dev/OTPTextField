@@ -20,7 +20,7 @@ pod 'OTPTextField'
 
 Then run `pod install`.
 
-Don't forget to `import OTPTextField` in every file you'd like to use Hero.
+Don't forget to `import OTPTextField` in every file you'd like to use.
 
 #### Carthage
 
