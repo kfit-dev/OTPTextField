@@ -82,6 +82,15 @@
     [self updateText];
 }
 
+- (void)setText:(NSString *)text {
+    NSString *finalText = text;
+    if ([finalText length] > _count) {
+        finalText = [finalText substringToIndex:_count];
+    }
+    [super setText:finalText];
+    [self updateText];
+}
+
 - (void)setTextColor:(UIColor *)textColor {
     __textColor = textColor;
     [super setTextColor:[UIColor clearColor]];

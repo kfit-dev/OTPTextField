@@ -23,12 +23,12 @@ IB_DESIGNABLE
 /*
     @abstract Placeholder separator. Default '-'.
  */
-@property (nonatomic) IBInspectable NSString * placeholderSeparator;
+@property (nonatomic) IBInspectable NSString * _Nonnull placeholderSeparator;
 
 /*
     @abstract Placeholder color. Default gray.
  */
-@property (nonatomic) IBInspectable UIColor * placeholderColor;
+@property (nonatomic) IBInspectable UIColor * _Nonnull placeholderColor;
 
 /*
     @abstract Letter spacing. Default 30.
